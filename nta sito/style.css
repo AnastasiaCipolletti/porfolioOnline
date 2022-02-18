@@ -1,0 +1,126 @@
+/* ! Base Style */
+
+body{ background-color: #343c46;}
+
+body{font-family: 'Ubuntu', sans-serif;}
+
+a{text-decoration: none;}
+
+h1,h2,h3,h4,h5,p{color: #000}
+
+.big-text{font-size: 70px; font-weight: bold;}
+.med-text{font-size: 50px;}
+.normal-text{font-size: 16px;}
+.small-text{font-size: 10px;}
+
+
+
+
+/* ! header */
+
+.header{
+    width: 100%; height: 100px;
+
+    background-color: #fff;
+    position: absolute; margin:0;
+    margin-top: 0%;
+    position: relative;
+}
+
+.logo{
+    margin-right: 840px;
+}
+
+img{
+    width:70px; height: 70px;
+position: relative;
+}
+
+.menu{
+}
+
+
+.menu li{ display: inline-block;
+position: relative;
+
+
+}
+
+
+.menu li a{ color: orange;
+    padding: 30px;
+     font-size: 25px;
+
+}
+
+
+/* ! hero */
+
+.hero{}
+
+.hero__content{
+
+    align-content: center;
+    padding: 30px;
+    margin: 50px; margin-top: 10px; margin-bottom: 10px;
+}
+
+
+.hero__content h1{
+text-align: center; color: #fff;
+margin-left: 10px; margin-top: 0;
+
+}
+
+
+.hero__content h2{
+    text-align: center; color: #fff; padding: 10px;
+}
+
+
+.hero__immagine{
+height: 600px; width: 600px;
+margin-left: 420px;
+}
+
+.hero__immagine img{
+
+    height: 600px; width: 600px;
+    padding-bottom: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+*,
+*:before,
+*:after {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
